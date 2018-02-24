@@ -26,7 +26,7 @@ function parseText(text, arr){
         3. return the object
     updated to also take in both strings and an array of strings
         the above steps becomes a helper function
-    every key has arrays of values that is combination of two words
+    every key has arrays of values that can have combination of two or more words phrases
                                                                         -------------*/
 // function generateWordPairs(wordCorpus){
       
