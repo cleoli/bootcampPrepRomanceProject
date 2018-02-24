@@ -1,4 +1,4 @@
-/*------------Cleo's Fullstack Academy Prep Romance Project 
+/*------------Fullstack Academy Prep Romance Project 
   parseText function:
     takes in a string and returns an array of arrays of the words with punctuations and words without punctuations except apostrophes
         1.obtain a copy of string in all lowercase 
