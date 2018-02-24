@@ -109,7 +109,7 @@ function generateWordPairs(wordCorpus){
         1. create a function for generating random number based on a specified range
         2. create a random key
         3. get a random value for the key
-        4. use the random value as the next key for generating the next random value, if it isn't a key in object generate another random key
+        4. use the last word of the random value as the next key for generating the next random value, if it isn't a key in object generate another random key
         5. return the final string with the specified word length
     updated to accept two or more word phrase as a match
                                                                         -------------*/
