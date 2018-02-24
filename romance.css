@@ -1,0 +1,52 @@
+*{
+  //border: black solid 3px;
+  margin: 0px;
+}
+h1{
+  text-align: center;
+  padding: 35px 0px;
+  background-color: cadetblue;
+}
+body{
+ // margin-left: 5%;
+ // margin-right: 5%;
+}
+
+#poemDisplay{
+  padding-left: 20%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+#qMark{
+  font-size: 100px;
+  color: #41a2a2;
+  text-align: center;
+  margin-right: 30%;
+}
+table{
+  margin: auto;
+}
+th, td{
+  padding: 20px 30px;
+}
+#inputSourceText{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#start{
+  font-size: 30px;
+}
+#quotesR, #quotesS, #quotesP, #quote{
+  background-color: #e6ab66;
+  color: white;
+}
+#poem{
+  //background-color: #e6ab66;
+  //border-bottom: double 12px #4b4c61;
+}
+#inputSourceText th{
+  border-bottom: double 12px #4b4c61;
+  border-top: double 12px #4b4c61;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fullstack Academy Bootcamp Pre Romance Project</title>
+    <link rel="stylesheet" type="text/css" href="romance.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <script src='romance3.js'></script>
+  </head>
+
+  <body onload='inputGen()'>
+
+    <h1> Romance Project </h1>
+    
+    <section id='poem'>
+      <table>
+        <tr>
+          <th>Select one of the topics from this list:</th>
+          <th onclick='inputGen(this)' id='quotesR'>Romance</th>
+          <th onclick='inputGen(this)' id='quotesP'>Philosophy</th>
+          <th onclick='inputGen(this)' id='quotesS'>Science</th>
+          <th onclick='inputGen(this)' id='quote'>Mixed</th>
+        </tr>
+        <tr>
+          <td id='poemDisplay' colspan='5'>
+            <p id='qMark'>?</p>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id='inputSourceText'>
+      
+    </section>
+        
+  </body>
+</html>
