@@ -82,15 +82,16 @@ function generateWordPairs(wordCorpus){
                                               //objOfWordCorpus.hasOwnProperty(word) ? (nextWord === nextWordPunc ? objOfWordCorpus[word].push(nextWord+' '+nextNextWord): objOfWordCorpus[word].push(nextWord))
                                                                                     // : objOfWordCorpus[word] = [nextWord];
                                               if(objOfWordCorpus.hasOwnProperty(word)){
-                                                if(i < noPuncArr.length-4){
+                                                /*if(i < noPuncArr.length-4){
                                                   objOfWordCorpus[word].push(nextWord);
                                                   objOfWordCorpus[word].push(nextWord+' '+nextNextWord);
                                                   objOfWordCorpus[word].push(nextWord+' '+nextNextWord + ' ' + nnnWord);
                                                   objOfWordCorpus[word].push(nextWord+' '+nextNextWord + ' ' + nnnWord + ' ' + nnnnWord);
                                                 }
-                                                else if(i < noPuncArr.length-3){
+                                                else */
+                                                if(i < noPuncArr.length-3){
                                                   objOfWordCorpus[word].push(nextWord+' '+nextNextWord);
-                                                  objOfWordCorpus[word].push(nextWord+' '+nextNextWord + ' ' + nnnWord);
+                                                  //objOfWordCorpus[word].push(nextWord+' '+nextNextWord + ' ' + nnnWord);
                                                 }else{
                                                   objOfWordCorpus[word].push(nextWord);
                                                 }
