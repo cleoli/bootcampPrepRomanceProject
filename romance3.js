@@ -211,6 +211,7 @@ function generatePoem(wordCorpus, numLines, wordsCountList){
     }
 
     resPoem = uppercase(resPoem);
+    resPoem = resPoem.split('<br>').join('<br><br>');
     return resPoem;
 }
 /*------------
